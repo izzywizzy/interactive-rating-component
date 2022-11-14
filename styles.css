@@ -5,6 +5,7 @@ h2{
    color: hsl(0, 0%, 100%);
     font-family: 'Overpass', sans-serif;
     font-weight: 700;
+    margin-top: 20px;
 }
 p{
     color:hsl(216, 12%, 54%);
@@ -42,8 +43,13 @@ position: fixed;
     border-radius: 10px;
     
 }
+
 .bi{
     color: hsl(25, 97%, 53%);
+    background-color:hsl(213, 19%, 18%);
+    padding: 10px;
+    border-radius: 50%;
+    
 }
 .selected-rating{
 padding:5px 2px;
@@ -84,6 +90,7 @@ a.list-group-item:active {
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: white;
 }
 
 .attribution a {
