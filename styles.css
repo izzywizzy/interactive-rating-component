@@ -1,0 +1,85 @@
+body{
+    background-color:black;
+}
+h2{
+   color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+p{
+    color:hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.rating-container{
+position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 350px;
+    height: 380px;
+    text-align: left;
+    padding: 30px;
+    background-color:hsl(216, 12%, 8%);
+    border-radius: 10px;
+    display: flex;
+}
+.rating-container-thankyou{
+position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 350px;
+    height: 380px;
+    text-align: center;
+    padding: 30px;
+    background-color:hsl(216, 12%, 8%);
+    border-radius: 10px;
+    display: none;
+}
+.bi{
+    color: hsl(25, 97%, 53%);
+}
+.selected-rating{
+padding:5px 2px;
+color:hsl(25, 97%, 53%);
+background-color: hsl(213, 19%, 18%);
+border-radius: 10px;
+margin: 20px 0;
+
+}
+.list-group-item,.list-group-item:last-child,.list-group-item:first-child{
+    
+    border-radius: 50% !important;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    margin: 20px 0 20px 20px;
+}
+.list-group-item:hover{
+    background-color:hsl(25, 97%, 53%);
+}
+
+.btn{
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    text-transform: uppercase;
+}
+.btn:hover {background-color: white;color: hsl(25, 97%, 53%);}
+/* .list-group-item:first-child{
+    border-radius: 50% !important;
+} */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
